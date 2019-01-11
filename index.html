@@ -5,5 +5,37 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/scripts.js"></script>
+    <litle>Pig Dice</litle>
   </head>
+  <body>
+    <div class="jumbotron" id="intro-content">
+      <h1 class="page-header">Pig Dice web game!</h1>
+
+      <form id="names-row">
+        <div class="row">
+          <div class="col-xs-6">
+            <h3><strong>Player 1's Name:</strong></h3>
+            <input
+              required
+              class="form-control input-lg"
+              type="text"
+              id="p1input-name"
+            />
+          </div>
+          <div class="col-xs-6">
+            <h3><strong>Player 2's Name:</strong></h3>
+            <input
+              required
+              class="form-control form-control-danger input-lg"
+              type="text"
+              id="p2input-name"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary" id="startgame-btn">
+            Start Game!
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
