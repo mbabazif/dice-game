@@ -91,6 +91,7 @@ $(document).ready(function() {
       newPlayer1.restart();
       newPlayer2.restart();
       $("#p1-score").text(0);
+      x;
       $("#p2-score").text(0);
       $("#p1-turnscore").text(0);
       $("#p2-turnscore").text(0);

@@ -34,7 +34,7 @@ This program can only be accessed on a computer with Git and Atom installed.
 
 ### Links
 
-Git Hub Webpage: https://pullashradha.github.io/PigDice
+Git clone https://github.com/mbabazif/dice-game.git
 
 ### License
 
