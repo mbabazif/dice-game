@@ -21,3 +21,13 @@ Player.prototype.rollDice = function() {
     this.turnScore += diceOutput;
   }
 };
+Player.prototype.hold = function() {
+  this.totalScore += this.turnScore;
+  this.turnScore = 0; //Resets turnScore value at the end of each turn
+  this.dice.innerHTML = 0;
+};
+Player.prototype.restart = function() {
+  this.totalScore = 0;
+  this.turnScore = 0;
+  this.dice.innerHTML = 0;
+};
