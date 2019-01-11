@@ -1,10 +1,10 @@
 # Pig Dice
 
-#### By by Mbabazi Florence
+#### By Mbabazi Florence
 
 ## Description
 
-This program creates a two player web game for Pig Dice.
+This program creates a two player web game for Pig Dice game.
 
 ## Setup/Installation Requirements
 
