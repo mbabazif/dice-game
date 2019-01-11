@@ -31,3 +31,18 @@ Player.prototype.restart = function() {
   this.turnScore = 0;
   this.dice.innerHTML = 0;
 };
+
+
+//User Interface Logic
+$(document).ready(function() {
+    var newPlayer1 = new Player ();
+    var newPlayer2 = new Player ();
+    var newPlayerName = new Player ();
+    $("form#names-row").submit(function(event) {
+      event.preventDefault();
+      newPlayerName.pName();
+      $("#p1-name").text(newPlayerName.name1);
+      $("#p2-name").text(newPlayerName.name2);
+      $("#intro-content").hide();
+      $("#content").show();
+    });
