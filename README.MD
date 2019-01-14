@@ -38,4 +38,4 @@ Git clone https://github.com/mbabazif/dice-game.git
 
 ### License
 
-Licensed under the GPL License
+Licensed under Florence mbabazi 2019
