@@ -35,6 +35,7 @@ This program can only be accessed on a computer with Git and Atom installed.
 ### Links
 
 Git clone https://github.com/mbabazif/dice-game.git
+or play the game using this link  https://mbabazif.github.io/dice-game/
 
 ### License
 
