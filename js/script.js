@@ -102,7 +102,7 @@ $(document).ready(function() {
       "Are you sure you want to RESET the game? This will take you back to the rules page."
     );
     if (resetQuestion === true) {
-      location.reload(); //location refers to current page which is the intro-content
+      location.reload();
     }
   });
   $("#reset-winpage").click(function() {

@@ -142,3 +142,17 @@ p {
     background-color: lightblue;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+#page {
+  position: relative;
+  height: 100px;
+  width: 300px;
+  left: 600px;
+  right: 600px;
+}
